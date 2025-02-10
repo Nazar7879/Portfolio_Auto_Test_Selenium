@@ -1,0 +1,25 @@
+#### SauceDemo Automation Script
+
+This Python script automates interactions with the SauceDemo website, including logging in, adding items to the cart, removing items from the cart, and capturing screenshots of these actions.
+
+## Features
+
+- Logs into the SauceDemo website using predefined credentials.
+- Adds a product (T-shirt) to the shopping cart.
+- Removes the product from the cart.
+- Captures screenshots of key actions (username, password, cart actions) and saves them in a dedicated folder.
+
+## Requirements
+
+- **Python 3.x** (recommended version: 3.6+)
+- **Selenium WebDriver** (for web automation)
+- **ChromeDriver** (or other WebDriver based on your browser choice)
+
+
+
+#In Version 1.1, the following improvements were made:
+
+Added handling for drop-down lists (sorting by price).
+Enhanced exception handling for better error management.
+Introduced screenshot capture at key steps.
+Refactored code into separate classes for better readability and maintenance.
