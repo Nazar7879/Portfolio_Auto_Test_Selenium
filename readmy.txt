@@ -23,3 +23,30 @@ Added handling for drop-down lists (sorting by price).
 Enhanced exception handling for better error management.
 Introduced screenshot capture at key steps.
 Refactored code into separate classes for better readability and maintenance.
+
+
+
+
+
+# In Version 1.2, the following improvements were made:
+Improved handling for product names and price filtering.
+Added explicit waits for better synchronization.
+Refined locator strategies for more reliable element interaction.
+Optimized fixture setup for cleaner test execution.
+Added additional pytest checks to ensure the correctness of the filter actions.
+
+
+#Test password
+This project focuses on automating the login functionality of the Sauce Demo website using Python's Selenium WebDriver and the pytest framework.
+
+Key Features:
+
+Automated Login Testing: The project automates the process of logging into the Sauce Demo website with various sets of credentials to verify the correctness and robustness of the login functionality.
+
+Parameterized Testing: Utilizing pytests parameterization, the tests are executed with multiple username and password combinations, ensuring comprehensive coverage of different scenarios.
+
+Logging Integration: The project incorporates Python's logging module to record detailed information about the test execution process, including successes and failures, which aids in debugging and maintaining the test suite.
+
+Explicit Waits for Synchronization: To enhance test reliability, explicit waits are implemented, ensuring that the tests interact with web elements only when they are present and ready for interaction.
+
+Fixture Setup: The use of pytest fixtures streamlines the setup and teardown processes for the WebDriver, promoting cleaner and more efficient test execution.
